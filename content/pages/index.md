@@ -1,12 +1,5 @@
 ---
 templateKey: landingPage
-title: Über mich
-intro: Für mich ist Permakultur ein Planungskonzept, eine Philosophie und eine
-  Chance für die Zukunft. Seit 2014 beschäftige ich mich intensiv mit den sehr
-  weitreichenden Themen der Permakultur. Ich möchte meinen Kindern und Enkeln
-  eine Welt hinterlassen, in der sie eine intakte Natur vorfinden und in einem
-  gesunden Umfeld aufwachsen können. Deshalb setze ich mich für Permakultur ein.
-bgImage: ../../static/img/bg.jpg
 meImage: ../../static/img/avatar.jpg
 worksHeading: Arbeiten
 works:
@@ -18,7 +11,7 @@ works:
       ist es möglich jedem Standort gerecht zu werden und mit etwas Kreativität,
       wird aus einem einfachen ungepflegten Hang ein interessanter Blickfang.
   - img: ../../static/img/gallery-02.jpg
-    caption: Steinmauer
+    caption: Trockensteinmauer
     description: Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen
       Unterschlupf. Sie bieten  spezifischen Pflanzen eine Nische, um sich
       anzusiedeln und geben der Biodiversität eine Chance. In Frankreich, wo
@@ -50,6 +43,13 @@ offerText03: Sie möchten Ihren Lebensraum verändern und brauchen tatkräftige
   Hilfe? Mit meiner gesammelten Erfahrung in der Organisation und Gestaltung
   können wir gemeinsam fast jedes Projekt umsetzten und der Natur etwas
   zurückgeben.
+title: Über mich
+intro: Für mich ist Permakultur ein Planungskonzept, eine Philosophie und eine
+  Chance für die Zukunft. Seit 2014 beschäftige ich mich intensiv mit den sehr
+  weitreichenden Themen der Permakultur. Ich möchte meinen Kindern und Enkeln
+  eine Welt hinterlassen, in der sie eine intakte Natur vorfinden und in einem
+  gesunden Umfeld aufwachsen können. Deshalb setze ich mich für Permakultur ein.
+bgImage: ../../static/img/bg.jpg
 offerTitle01: Beratung
 offerTitle02: Planung
 offerTitle03: Gestaltung
