@@ -8,20 +8,20 @@ works:
     description: Ein kleines Projekt mit einigen Herausforderungen. Ein kleiner,
       steiler Hang, der sehr selten Wasser und so gut wie nie Sonne bekommt. Mit
       einem speziell angepassten Pflanzkonzept (und einem Kakteen Experiment),
-      ist es möglich jedem Standort gerecht zu werden und mit etwas Kreativität,
-      wird aus einem einfachen ungepflegten Hang ein interessanter Blickfang.
+      ist es möglich, jedem Standort gerecht zu werden und mit etwas Kreativität
+      wird aus einem einfachen, ungepflegten Hang ein interessanter Blickfang.
   - img: ../../static/img/gallery-02.jpg
     caption: Trockensteinmauer
     description: Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen
       Unterschlupf. Sie bieten  spezifischen Pflanzen eine Nische, um sich
       anzusiedeln und geben der Biodiversität eine Chance. In Frankreich, wo
       diese Mauern stehen, ist Stein ein sehr häufiger Rohstoff und ideal um
-      ganze Bergflanken zu Terrassieren und bewirtschaftbar zu machen.
+      ganze Bergflanken zu terrassieren und nutzbar zu machen.
   - img: ../../static/img/suzane-003.jpg
     caption: Terrassierung
-    description: Mit Palisaden kann auch eine Terrassierung erstellt werden. Durch
-      das Terrassieren wird aus einem unhandlichen Hang ein kleiner Garten und
-      Blickfang
+    description: Eine Terrassierung kann auch mit Palisaden erstellt werden. Durch
+      das terrassieren wird aus einem nicht nutzbaren Hang ein kleiner Garten
+      und Blickfang.
 contact:
   heading: Kontakt
   intro: Ich freue mich über Ihre Nachricht.
@@ -29,7 +29,7 @@ contact:
   address02: 3762 Erlenbach im Simmental
   address03: Schweiz
   phone: +41 79 385 95 71
-  email: kontakt@permakultur-hand-werk.ch
+  email: kontakt@permakultur-handwerk.ch
 offerHeading: Angebot
 offerText01: Sie möchten Ihren Lebensraum verändern und hätten gerne ein wenig
   Inspiration? Gerne unterstütze ich Sie mit meinem Wissen bei Ihrer eigenen
