@@ -22,6 +22,14 @@ works:
     description: Eine Terrassierung kann auch mit Palisaden erstellt werden. Durch
       das terrassieren wird aus einem nicht nutzbaren Hang ein kleiner Garten
       und Blickfang.
+  - img: ../../static/img/527-2.0.jpg
+    caption: Outdoor-Wurmkompost
+    description: Die herkömmlichen «Schnellkomposter» brauchen lange und stinken,
+      bevor Humus geerntet werden kann. Ein Outdoor-Wurmkompost sieht dagegen
+      nicht nur gut aus, sondern erfüllt seine Aufgabe auch sehr viel besser.
+      Indem man den kleinen Helfern das ganze Jahr über angenehme
+      «Arbeitsbedingungen» bietet, kann schnell viel Biomasse umgesetzt und
+      einer der besten Gartendünger überhaupt produzieren werden.
   - img: ../../static/img/pict0192-2.0.jpg
     caption: Kräuterspirale (Workshop)
     description: Eine Kräuterspirale vereint viele Eigenschaften in sich, so werden
@@ -48,14 +56,6 @@ works:
       können bepflanzt werden. Neben der angenehmen Arbeitshaltung (man muss
       sich nicht bücken), verhindert sie Erosion, begünstigt das Versickern des
       Wassers und bietet mehr Anbaufläche für Pflanzen.
-  - img: ../../static/img/527-2.0.jpg
-    caption: Outdoor-Wurmkompost
-    description: Die herkömmlichen «Schnellkomposter» brauchen lange und stinken,
-      bevor Humus geerntet werden kann. Ein Outdoor-Wurmkompost sieht dagegen
-      nicht nur gut aus, sondern erfüllt seine Aufgabe auch sehr viel besser.
-      Indem man den kleinen Helfern das ganze Jahr über angenehme
-      «Arbeitsbedingungen» bietet, kann schnell viel Biomasse umgesetzt und
-      einer der besten Gartendünger überhaupt produzieren werden.
   - img: ../../static/img/img_9539.jpg
     caption: Permakultur Designe Kurs
     description: Wissen vermitteln ist ein wichtiger Bestandteil der Permakultur.
