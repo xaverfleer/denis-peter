@@ -22,6 +22,45 @@ works:
     description: Eine Terrassierung kann auch mit Palisaden erstellt werden. Durch
       das terrassieren wird aus einem nicht nutzbaren Hang ein kleiner Garten
       und Blickfang.
+  - img: ../../static/img/pict0192.jpg
+    caption: Kräuterspirale (Workshop)
+    description: Eine Kräuterspirale vereint viele Eigenschaften in sich, so werden
+      z.B auf  kleinsten Raum viele Nischen für unterschiedlichste Pflanzen und
+      Lebewesen geboten. Von Pfefferminze bis Rosmarin kann alles an einem
+      Standort gepflanzt werden.
+  - img: ../../static/img/20181018_104623.jpg
+    caption: Pergola
+    description: Diese Pergola aus sehr langlebigem Kastanienholz, wird den Pflanzen
+      als Rankgerüst dienen und im Sommer Schatten, Früchte und Blüten bieten
+      und im Winter die Sonne wieder hereinlassen.
+  - img: ../../static/img/20201031_155846.jpg
+    caption: Sauna Terrasse (Upcycling)
+    description: >-
+      Upcycling ist mehr als Recycling. Das Holz für diese Arbeiten stammt von
+      einem alten Weidezaun aus Robinie. Dieses Holz ist äusserst
+      witterungsbeständig und wird noch viele Jahre seinen neuen Dienst
+      erfüllen. 
+
+      Mit Geschick wird aus etwas Altem «Kaputtem», etwas Neues kreiert und so ein hoher Mehrwert generiert. Anstatt nach der Sauna durch den Matsch zu laufen, kann man sich jetzt sauberen Fusses abkühlen und auf den nächsten Saunagang vorbereiten.
+  - img: ../../static/img/20190115_140336.jpg
+    caption: Terrassierung (Upcycling)
+    description: Eine Terrassierung bietet viele Vorteile. Nicht nutzbare Flächen
+      können bepflanzt werden. Neben der angenehmen Arbeitshaltung (man muss
+      sich nicht bücken), verhindert sie Erosion, begünstigt das Versickern des
+      Wassers und bietet mehr Anbaufläche für Pflanzen.
+  - img: ../../static/img/527.jpg
+    caption: Outdoor-Wurmkompost
+    description: Die herkömmlichen «Schnellkomposter» brauchen lange und stinken,
+      bevor Humus geerntet werden kann. Ein Outdoor-Wurmkompost sieht dagegen
+      nicht nur gut aus, sondern erfüllt seine Aufgabe auch sehr viel besser.
+      Indem man den kleinen Helfern das ganze Jahr über angenehme
+      «Arbeitsbedingungen» bietet, kann schnell viel Biomasse umgesetzt und
+      einer der besten Gartendünger überhaupt produzieren werden.
+  - img: ../../static/img/img_9539.jpg
+    caption: Permakultur Designe Kurs
+    description: Wissen vermitteln ist ein wichtiger Bestandteil der Permakultur.
+      Nur wenn wir gemeinsam zur Veränderung beitragen, kann sich etwas
+      langfristig ändern.
 contact:
   heading: Kontakt
   intro: Ich freue mich über Ihre Nachricht.
