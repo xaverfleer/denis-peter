@@ -22,7 +22,7 @@ works:
     description: Eine Terrassierung kann auch mit Palisaden erstellt werden. Durch
       das terrassieren wird aus einem nicht nutzbaren Hang ein kleiner Garten
       und Blickfang.
-  - img: ../../static/img/pict0192.jpg
+  - img: ../../static/img/pict0192-2.0.jpg
     caption: Kräuterspirale (Workshop)
     description: Eine Kräuterspirale vereint viele Eigenschaften in sich, so werden
       z.B auf  kleinsten Raum viele Nischen für unterschiedlichste Pflanzen und
