@@ -17,13 +17,7 @@ const HomeIndex = ({ data }) => {
     bgImage,
     meImage,
     intro,
-    offerHeading,
-    offerTitle01,
-    offerTitle02,
-    offerTitle03,
-    offerText01,
-    offerText02,
-    offerText03,
+    offering,
     worksHeading,
     works,
     contact,
@@ -56,13 +50,13 @@ const HomeIndex = ({ data }) => {
         </section>
 
         <section>
-          <h2>{offerHeading}</h2>
-          <h3>{offerTitle01}</h3>
-          <p>{offerText01}</p>
-          <h3>{offerTitle02}</h3>
-          <p>{offerText02}</p>
-          <h3>{offerTitle03}</h3>
-          <p>{offerText03}</p>
+          <h2>{offering?.heading}</h2>
+          {offering?.offers?.map((offer) => (
+            <>
+              <h3>{offer?.heading}</h3>
+              <p>{offer?.description}</p>
+            </>
+          ))}
         </section>
 
         <section>
@@ -135,13 +129,13 @@ export const pageQuery = graphql`
           }
           intro
           title
-          offerHeading
-          offerTitle01
-          offerTitle02
-          offerTitle03
-          offerText01
-          offerText02
-          offerText03
+          offering {
+            heading
+            offers {
+              heading
+              description
+            }
+          }
           worksHeading
           works {
             caption
