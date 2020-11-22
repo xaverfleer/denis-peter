@@ -23,6 +23,17 @@ collections:
           - { label: Intro, name: intro, widget: text }
           - { label: Background Image, name: bgImage, widget: image }
           - { label: Me, name: meImage, widget: image }
+          - label: Offering
+            name: offering
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - label: Offer Entries
+                name: offers
+                widget: list
+                fields:
+                  - { label: Heading, name: heading, widget: string }
+                  - { label: Description, name: description, widget: text }
           - { label: Works Heading, name: worksHeading, widget: string }
           - label: Work Samples
             name: works
