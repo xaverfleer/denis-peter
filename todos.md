@@ -1,6 +1,5 @@
 # requested by denis
 
-- fix email button
 - Angebotstext anpassen mit NetlifyCMS
 - Bilder Layout, keine Lücken
 

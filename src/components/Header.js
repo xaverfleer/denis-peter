@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import Footer from './Footer'
 import overlay from '../assets/scss/images/overlay.png'
 
-const Header = ({ bgFluid, meFixed }) => (
+const Header = ({ bgFluid, email, meFixed }) => (
   <header
     id="header"
     style={{ backgroundImage: `url(${overlay}), url(${bgFluid?.src})` }}
@@ -17,7 +17,7 @@ const Header = ({ bgFluid, meFixed }) => (
         <strong>Ich bin Denis Peter</strong>, Permakultur ist meine Leidenschaft
       </h1>
     </div>
-    <Footer />
+    <Footer email={email} />
   </header>
 )
 

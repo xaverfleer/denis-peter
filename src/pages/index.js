@@ -35,6 +35,7 @@ const HomeIndex = ({ data }) => {
   return (
     <Layout
       bgFluid={bgImage.childImageSharp.fluid}
+      email={contact.email}
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => (
+const Footer = ({ email }) => (
   <div id="footer">
     <div className="inner">
       <ul className="icons">
@@ -15,8 +15,8 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="/#" className="icon fa-envelope-o">
-            <span className="label">Email</span>
+          <a href={`mailto:${email}`} className="icon fa-envelope-o">
+            <span className="label">E-Mail</span>
           </a>
         </li>
       </ul>

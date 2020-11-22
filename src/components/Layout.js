@@ -3,9 +3,9 @@ import '../assets/scss/main.scss'
 
 import Header from './Header'
 
-const Layout = ({ bgFluid, children, meFixed }) => (
+const Layout = ({ bgFluid, children, email, meFixed }) => (
   <div>
-    <Header bgFluid={bgFluid} meFixed={meFixed} />
+    <Header bgFluid={bgFluid} email={email} meFixed={meFixed} />
     {children}
   </div>
 )
