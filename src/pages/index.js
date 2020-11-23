@@ -24,7 +24,7 @@ const HomeIndex = ({ data }) => {
   } = frontmatter
 
   const siteDescription =
-    'Permakultur Bern | Beratung, Planung und Umsetzung ihres Permakultur-Projeks'
+    'Permakultur Handwerk | Beratung, Planung und Umsetzung ihres Permakultur-Projeks'
 
   return (
     <Layout
@@ -33,7 +33,7 @@ const HomeIndex = ({ data }) => {
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>
-        <title>Permakultur Bern | Denis Peter</title>
+        <title>Permakultur Handwerk | Denis Peter</title>
         <meta name="description" content={siteDescription} />
         <meta
           name="google-site-verification"

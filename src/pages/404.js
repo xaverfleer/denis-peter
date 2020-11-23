@@ -17,7 +17,7 @@ const NotFoundPage = ({ data }) => {
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>
-        <title>Permakultur Bern | Seite nicht gefunden</title>
+        <title>Permakultur Handwerk | Seite nicht gefunden</title>
         <meta name="description" content="Seite nicht gefunden" />
         <meta name="robots" content="noindex" />
       </Helmet>

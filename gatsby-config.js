@@ -14,7 +14,7 @@ module.exports = {
     title: 'Permakultur Handwerk | Denis Peter',
     author: 'Xaver Fleer',
     description:
-      'Permakultur Bern | Beratung, Planung und Gestaltung von Permakultur-Projekten',
+      'Permakultur Handwerk | Beratung, Planung und Gestaltung von Permakultur-Projekten',
   },
   plugins: [
     'gatsby-transformer-sharp',

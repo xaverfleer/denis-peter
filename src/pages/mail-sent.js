@@ -20,7 +20,7 @@ const MailSent = ({ data }) => {
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>
-        <title>Permakultur Bern | Nachricht gesendet</title>
+        <title>Permakultur Handwerk | Nachricht gesendet</title>
         <meta name="description" content={siteDescription} />
         <meta name="robots" content="noindex" />
       </Helmet>
