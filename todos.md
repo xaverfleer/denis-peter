@@ -1,7 +1,7 @@
 # requested by denis
 
-- Angebotstext anpassen mit NetlifyCMS
 - Bilder Layout, keine Lücken
+- Permakultur Bern -> Permakultur Handwerk (everywhere)
 
 # pre go-live
 
