@@ -1539,3 +1539,8 @@ body.is-touch {
     width: 100%;
   }
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}

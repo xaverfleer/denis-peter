@@ -18,7 +18,7 @@ const Gallery = ({ works }) => {
   return (
     <div>
       {works && (
-        <div className="row">
+        <div className="row gallery">
           {works.map((work, i) => {
             return (
               <GalleryItem
