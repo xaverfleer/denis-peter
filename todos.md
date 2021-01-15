@@ -10,6 +10,7 @@
 - rename blog -> library
 - mention library in landing page
 - only show 4 entries for gallery and blog, add show more
+- add social sharing links
 - SEO
   - add to Google, Bing and DuckDuckGo
 - read email from index.md, always
