@@ -7,11 +7,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
-  const allNodes = data.allMarkdownRemark.nodes
-  const landingPageNode = allNodes.find(
-    (node) => node?.frontmatter?.templateKey === 'landingPage'
-  )
-  const { frontmatter } = landingPageNode
+  const { frontmatter } = data.markdownRemark
   const siteTitle = frontmatter.title
   const {
     bgImage,
@@ -109,61 +105,59 @@ export default HomeIndex
 
 export const pageQuery = graphql`
   query indexMd {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          templateKey
-          bgImage {
+    markdownRemark(frontmatter: { templateKey: { eq: "landingPage" } }) {
+      frontmatter {
+        templateKey
+        bgImage {
+          childImageSharp {
+            fluid(maxWidth: 1800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        meImage {
+          childImageSharp {
+            fixed(width: 200, height: 200) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        intro
+        title
+        offering {
+          heading
+          offers {
+            heading
+            description
+          }
+        }
+        worksHeading
+        works {
+          caption
+          description
+          fluidThumb: img {
+            childImageSharp {
+              fluid(maxWidth: 400, maxHeight: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          fluidLarge: img {
             childImageSharp {
               fluid(maxWidth: 1800) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
-          meImage {
-            childImageSharp {
-              fixed(width: 200, height: 200) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
+        }
+        contact {
+          heading
           intro
-          title
-          offering {
-            heading
-            offers {
-              heading
-              description
-            }
-          }
-          worksHeading
-          works {
-            caption
-            description
-            fluidThumb: img {
-              childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 300) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            fluidLarge: img {
-              childImageSharp {
-                fluid(maxWidth: 1800) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          contact {
-            heading
-            intro
-            address01
-            address02
-            address03
-            phone
-            email
-          }
+          address01
+          address02
+          address03
+          phone
+          email
         }
       }
     }
