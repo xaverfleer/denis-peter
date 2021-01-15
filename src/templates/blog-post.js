@@ -5,12 +5,16 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 
 const BlogPostTemplate = ({ data }) => {
-  const { bgImage } = data.landingPage.frontmatter
+  const { bgImage, meImage } = data.landingPage.frontmatter
   const { blogPost } = data
   const { title, description } = blogPost.frontmatter
 
   return (
-    <Layout bgFluid={bgImage.childImageSharp.fluid} title={title}>
+    <Layout
+      bgFluid={bgImage.childImageSharp.fluid}
+      meFixed={meImage.childImageSharp.fixed}
+      title={title}
+    >
       <Helmet>
         <title>Permakultur Handwerk | {title}</title>
         <meta name="description" content={description} />
@@ -46,6 +50,13 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 1800) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        meImage {
+          childImageSharp {
+            fixed(width: 200, height: 200) {
+              ...GatsbyImageSharpFixed
             }
           }
         }
