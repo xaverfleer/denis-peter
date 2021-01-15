@@ -1,13 +1,11 @@
+# questions
+
+- fix meImage
+- blog -> library?
+
 # requested by denis
 
-- Bilder Layout, keine Lücken
-- Permakultur Bern -> Permakultur Handwerk (everywhere)
-
 # pre go-live
-
-- SEO
-
-  - update description
 
 # post go-live
 
@@ -17,13 +15,11 @@
 - add form fields
   - phone number
   - subject
-- test: Add possibility to change projects on landing page
+- add photos to blog
 
 # maybe someday
 
-- check why steinmauer image is smaller than boeschung
 - add analytics
-- preprocess (background) images
 - Ideen von Denis Untersteiten
   - Angebot detailliert
   - Bibliothek
