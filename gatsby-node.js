@@ -14,6 +14,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         limit: 1000
       ) {
         nodes {
+          id
           fields {
             slug
           }
