@@ -104,10 +104,9 @@ const HomeIndex = ({ data }) => {
 export default HomeIndex
 
 export const pageQuery = graphql`
-  query indexMd {
+  query {
     markdownRemark(frontmatter: { templateKey: { eq: "landingPage" } }) {
       frontmatter {
-        templateKey
         bgImage {
           childImageSharp {
             fluid(maxWidth: 1800) {
