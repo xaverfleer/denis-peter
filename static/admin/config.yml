@@ -8,6 +8,26 @@ public_folder: ../../static/img
 site_url: https://affectionate-ride-be4308.netlify.app/
 
 collections:
+  - name: 'library'
+    label: 'Bibliothek'
+    folder: 'content/library'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'library-post',
+        }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Publiziert am', name: 'date', widget: 'datetime' }
+      - { label: 'Beschreibung', name: 'description', widget: 'text' }
+      - { label: 'Featured Post', name: 'featuredpost', widget: 'boolean' }
+      - { label: 'Featured Image', name: 'featuredimage', widget: image }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+
   - label: 'Pages'
     name: 'pages'
     files:
