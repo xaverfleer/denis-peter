@@ -17,6 +17,12 @@ module.exports = {
       'Permakultur Handwerk | Beratung, Planung und Gestaltung von Permakultur-Projekten',
   },
   plugins: [
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 630,
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -50,6 +56,18 @@ module.exports = {
       options: { modulePath: `${__dirname}/src/cms/cms.js` },
     },
     'gatsby-plugin-offline',
-    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
   ],
 }
