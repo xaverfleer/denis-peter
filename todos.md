@@ -1,14 +1,16 @@
-# questions
+# done
 
-- blog -> library?
+- ✅ add NetlifyCMS for blog
+- ✅ rename blog -> library
 
 # requested by denis
 
 # todos
 
-- add NetlifyCMS for blog
-- rename blog -> library
+- rename file blog-post -> library-post
 - mention library in landing page
+- add arbeiten page
+- add library page
 - only show 4 entries for gallery and blog, add show more
 - add social sharing links
 - SEO
