@@ -2,8 +2,7 @@
 templateKey: library-post
 title: Permakultur Ethik
 date: 2021-01-03T11:37:00.000Z
-description: Die Ethik der Permakultur bildet das Rückgrat des gesamten
-  Konzepts. Sie besteht aus «Earth Care», «People Care» und «Fair Share».
+description: Die Ethik der Permakultur bildet das Rückgrat des gesamten  Konzepts. Sie besteht aus «Earth Care», «People Care» und «Fair Share».
 featuredpost: true
 featuredimage: ../../static/img/permakultur-ethik.jpg
 tags:
