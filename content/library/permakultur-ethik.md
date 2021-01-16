@@ -31,7 +31,7 @@ Also «Earth Care» widmet sich einerseits dem Schutz unserer noch bestehenden n
 
 Es gilt unsere noch vorhanden Ressourcenvorkommen zu schützen, wie sauberes Trinkwasser und gesunde Böden aber auch die Fauna und Flora der jeweiligen Gebiete und Klimazonen. Denn mit dieser Ethik wird uns auch bewusst, dass die Komplexität der noch natürlichen bestehenden Ökosysteme eine Bedingung für die Stabilität des ganzen Kreislaufs ist. Werden einzelne Arten ausgelöscht, kann der Rest des Systems ins Schwanken geraten und eine zerstörerische Abwärtsspirale nimmt Fahrt auf.
 
-![Baum umgeben von fürsorglichen Händen](../../static/img/permakultur-ethik.jpg 'Permakultur-Ethik')
+![Rasen](../../static/img/Rasen.jpg 'Rasen')
 
 Auf einige wichtige Beispiele angewendet könnte man es so formulieren:
 
