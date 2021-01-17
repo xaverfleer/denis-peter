@@ -7,12 +7,12 @@
 
 # todos
 
-- rename file blog-post -> library-post
-- mention library in landing page
+- add image caption
 - add arbeiten page
 - add library page
-- only show 4 entries for gallery and blog, add show more
 - add social sharing links
+- mention library in landing page
+- only show 4 entries for gallery and blog, add show more
 - SEO
   - add to Google, Bing and DuckDuckGo
 - read email from index.md, always
@@ -21,6 +21,7 @@
   - subject
 - add photos to blog
 - ✅ fix meImage
+- ✅ rename file blog-post -> library-post
 
 # maybe someday
 
