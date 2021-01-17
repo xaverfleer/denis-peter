@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
-const BlogPostTemplate = ({ data }) => {
+const libraryPostTemplate = ({ data }) => {
   const { bgImage, meImage } = data.landingPage.frontmatter
-  const { blogPost } = data
-  const { title, description } = blogPost.frontmatter
+  const { libraryPost } = data
+  const { title, description } = libraryPost.frontmatter
 
   return (
     <Layout
@@ -22,17 +22,17 @@ const BlogPostTemplate = ({ data }) => {
       </Helmet>
       <div id="main">
         <article
-          className="blog-post"
+          className="library-post"
           itemScope
           itemType="http://schema.org/Article"
-          dangerouslySetInnerHTML={{ __html: blogPost.html }}
+          dangerouslySetInnerHTML={{ __html: libraryPost.html }}
         ></article>
       </div>
     </Layout>
   )
 }
 
-export default BlogPostTemplate
+export default libraryPostTemplate
 
 export const pageQuery = graphql`
   query($id: String!, $previousPostId: String, $nextPostId: String) {
@@ -62,7 +62,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    blogPost: markdownRemark(id: { eq: $id }) {
+    libraryPost: markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
       html

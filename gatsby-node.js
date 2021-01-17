@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const libraryPost = path.resolve(`./src/templates/library-post.js`)
 
   const result = await graphql(`
     {
@@ -24,7 +24,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   `)
 
   if (result.errors) {
-    reporter.panicOnBuild`There was an error loading your blog posts`,
+    reporter.panicOnBuild`There was an error loading your library posts`,
       result.errors()
     return
   }
@@ -37,7 +37,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     createPage({
       path: post.fields.slug,
-      component: blogPost,
+      component: libraryPost,
       context: {
         id: post.id,
         previousPostId,
