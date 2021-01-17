@@ -2,7 +2,7 @@
 templateKey: library-post
 title: Permakultur Ethik
 date: 2021-01-03T11:37:00.000Z
-description: Die Ethik der Permakultur bildet das Rückgrat des gesamten  Konzepts. Sie besteht aus «Earth Care», «People Care» und «Fair Share».
+description: Die Ethik der Permakultur bildet das Rückgrat des gesamten  Konzepts. Sie besteht aus "Earth Care", "People Care" und "Fair Share".
 featuredpost: true
 featuredimage: ../../static/img/permakultur-ethik.jpg
 tags:
@@ -15,19 +15,19 @@ tags:
 
 # Permakultur Ethik
 
-Die Ethik der Permakultur bildet das Rückgrat des gesamten Konzepts. Sie besteht aus «Earth Care» (für die Erde sorgen), «People Care» (Für die Menschen Sorgen) und «Fair Share» (gerechtes Teilen). Auf der Ethik baut sich das Arbeiten und die Philosophie der Permakultur-Prinzipien auf. Sie dient und hilft bei der Orientierung und Herangehensweise bei Problemen und Herausforderungen, welche sich durch die Eigenschaften der Natur und der Menschen ergeben. Darüber hinaus hilf die Ethik (wenn eingehalten) beim Gestallten von dauerhaften, nachhaltigen und produktiven Projekten und Konzepten.
+Die "Ethik der Permakultur" bildet das Rückgrat des gesamten Konzepts. Sie besteht aus "Earth Care" (für die Erde sorgen), "People Care" (Für die Menschen Sorgen) und "Fair Share" (gerechtes Teilen). Auf der Ethik baut sich das Arbeiten und die Philosophie der Permakultur-Prinzipien auf. Sie dient und hilft bei der Orientierung und Herangehensweise bei Problemen und Herausforderungen, welche sich durch die Eigenschaften der Natur und der Menschen ergeben. Darüber hinaus hilf die Ethik (wenn eingehalten) beim Gestallten von dauerhaften, nachhaltigen und produktiven Projekten und Konzepten.
 
 Trotz der wegweisenden Funktion der Ethik, ist für mich wichtig, dass man diese nicht als dogmatisch betrachtet. Sie bieten jedem Anwender gewisse Freiheiten, welche fundamental wichtig sind, um ein Projekt auf sich, seine Umwelt und den vor Ort anzutreffenden gesellschaftlichen Begebenheiten anzupassen.
 
 ![Permakultur-Ethik](../../static/img/permakultur-ethik.jpg 'Permakultur-Ethik')
 
-## «Earth care»
+## "Earth care"
 
-«Earth Care» ist die Ethik die konsequent betrachtet über das Individuelle und Persönliche hinausgeht. Wenn nicht mehr die persönliche Bereicherung im Vordergrund steht, sondern der Wunsch dem grossen Ganzen (allen Menschen, der Biodiversität, der Bodenqualität, …) einen Beitrag zu leisten, kann man von «Earth Care» reden. Wenn es dem Planeten gut geht, haben wir die besten Voraussetzungen damit es uns auch gut geht.
+"Earth Care" ist die Ethik die konsequent betrachtet über das Individuelle und Persönliche hinausgeht. Wenn nicht mehr die persönliche Bereicherung im Vordergrund steht, sondern der Wunsch dem grossen Ganzen (allen Menschen, der Biodiversität, der Bodenqualität, …) einen Beitrag zu leisten, kann man von "Earth Care" reden. Wenn es dem Planeten gut geht, haben wir die besten Voraussetzungen damit es uns auch gut geht.
 
 Schütze unsere Erde, Trage sorge zu unserer Erde, Kümmere dich um die Erden. Diese Grundethik wird als die grundlegendste und wichtigste der drei Ethiken betrachtet. Denn ohne Erde, auch keine Menschen! So simpel, einfach und traurig es ist, scheint es für viele Menschen noch nicht klar zu sein, dass wenn wir unseren Planeten zugrunde richten, uns auch gleich mit zerstören. Aus meiner Sicht ist es nicht erstrebenswert nach einem neuen Planeten zu suchen, welche man evtl. besiedeln und zusätzlich ausbeuten könnten, während wir unsere Heimat zerstören.
 
-Also «Earth Care» widmet sich einerseits dem Schutz unserer noch bestehenden natürlichen Lebensräume, wie auch dem Aufbau neuer lebensfreundlicher Strukturen und Systeme für Mensch, Tier und Natur.
+Also "Earth Care" widmet sich einerseits dem Schutz unserer noch bestehenden natürlichen Lebensräume, wie auch dem Aufbau neuer lebensfreundlicher Strukturen und Systeme für Mensch, Tier und Natur.
 
 Es gilt unsere noch vorhanden Ressourcenvorkommen zu schützen, wie sauberes Trinkwasser und gesunde Böden aber auch die Fauna und Flora der jeweiligen Gebiete und Klimazonen. Denn mit dieser Ethik wird uns auch bewusst, dass die Komplexität der noch natürlichen bestehenden Ökosysteme eine Bedingung für die Stabilität des ganzen Kreislaufs ist. Werden einzelne Arten ausgelöscht, kann der Rest des Systems ins Schwanken geraten und eine zerstörerische Abwärtsspirale nimmt Fahrt auf.
 
