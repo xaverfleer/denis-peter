@@ -27,7 +27,31 @@ const libraryPostTemplate = ({ data }) => {
           itemType="http://schema.org/Article"
           dangerouslySetInnerHTML={{ __html: libraryPost.html }}
         ></article>
+        <div class="social">
+          <div
+            class="social__facebook"
+            data-href="https://permakultur-handwerk.ch/permakultur-ethik/"
+            data-layout="button"
+            data-size="small"
+          >
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpermakultur-handwerk.ch%2Fpermakultur-ethik%2F&amp;src=sdkpreparse"
+              class="fb-xfbml-parse-ignore"
+            >
+              Auf Facebook teilen
+            </a>
+          </div>
+        </div>
       </div>
+      <div id="fb-root"></div>
+      <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+        nonce="12ONXcOW"
+      ></script>
     </Layout>
   )
 }

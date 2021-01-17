@@ -1544,3 +1544,14 @@ body.is-touch {
   display: flex;
   flex-wrap: wrap;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__facebook {
+  background-image: url('/img/facebook.svg');
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
