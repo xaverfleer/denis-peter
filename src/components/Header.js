@@ -13,9 +13,9 @@ const Header = ({ bgFluid, email, meFixed }) => (
       <a href="/#" className="image avatar">
         <Img fixed={meFixed} />
       </a>
-      <h1>
+      <h2>
         <strong>Ich bin Denis Peter</strong>, Permakultur ist meine Leidenschaft
-      </h1>
+      </h2>
     </div>
     <Footer email={email} />
   </header>
