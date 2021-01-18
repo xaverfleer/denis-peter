@@ -7,12 +7,8 @@
 
 # todos
 
-- add social sharing links
-  - ✅ facebook
-  - instagram
-  - twitter
-- add arbeiten page
 - add library page
+- add arbeiten page
 - add social sharing links
 - mention library in landing page
 - only show 4 entries for gallery and blog, add show more
@@ -28,9 +24,14 @@
 - ✅ fix meImage
 - ✅ rename file blog-post -> library-post
 - ✅ check gatsby-remark-transformer plugins
+- ✅ add social sharing links
+  - ✅ facebook
 
 # maybe someday
 
+- add social sharing links
+  - instagram
+  - twitter
 - add image caption
 - add previews for blog posts
 - add analytics
