@@ -35,6 +35,7 @@ const HomeIndex = ({ data }) => {
           name="description"
           content="Bibliothek mit Wissen Rund um die Permakultur."
         />
+        <meta name="robots" content="noindex" />
       </Helmet>
 
       <div id="main">
