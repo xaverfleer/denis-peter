@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
+import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
@@ -11,6 +12,16 @@ const HomeIndex = ({ data }) => {
   const { frontmatter: libraryPageFrontmatter } = data.libraryPage
   const siteTitle = libraryPageFrontmatter.title
   const { intro } = libraryPageFrontmatter
+
+  const featuredPosts = data.libraryPosts.nodes
+    .map((n) => ({ frontmatter: n.frontmatter, slug: n.fields.slug }))
+    .map(({ frontmatter, slug }) => ({
+      caption: frontmatter.title,
+      description: frontmatter.description,
+      fluidLarge: frontmatter.fluidLarge,
+      fluidThumb: frontmatter.fluidThumb,
+      slug: slug,
+    }))
 
   return (
     <Layout
@@ -32,6 +43,10 @@ const HomeIndex = ({ data }) => {
             <h1>{siteTitle}</h1>
           </header>
           <p>{intro}</p>
+        </section>
+        <section>
+          <h2>Einträge</h2>
+          <Gallery entries={featuredPosts} />
         </section>
       </div>
     </Layout>
@@ -71,6 +86,34 @@ export const pageQuery = graphql`
       frontmatter {
         intro
         title
+      }
+    }
+    libraryPosts: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "library-post" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          description
+          fluidThumb: featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 400, maxHeight: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          fluidLarge: featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 1800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -8,6 +8,7 @@ const GalleryItem = ({
   caption,
   description,
   position,
+  slug,
   toggleLightbox,
 }) => {
   const onClick = useCallback(
@@ -26,6 +27,7 @@ const GalleryItem = ({
 
       <h3>{caption}</h3>
       <p>{description}</p>
+      {slug && <a href={slug}>Zum Eintrag</a>}
     </article>
   )
 }

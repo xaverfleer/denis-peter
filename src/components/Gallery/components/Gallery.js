@@ -27,6 +27,7 @@ const Gallery = ({ entries }) => {
                 caption={entry.caption}
                 description={entry.description}
                 position={i}
+                slug={entry.slug}
                 toggleLightbox={toggleLightbox}
                 key={i}
               />
