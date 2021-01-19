@@ -243,14 +243,6 @@ form {
   margin: 0 0 _size(element-margin) 0;
 }
 
-label {
-  color: _palette(fg-bold);
-  display: block;
-  font-size: 0.9em;
-  font-weight: _font(weight-bold);
-  margin: 0 0 (_size(element-margin) * 0.5) 0;
-}
-
 input[type='text'],
 input[type='password'],
 input[type='email'],
@@ -320,64 +312,6 @@ input[type='radio'] {
   opacity: 0;
   width: 1em;
   z-index: -1;
-
-  & + label {
-    @include icon;
-    color: _palette(fg);
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: _font(weight);
-    padding-left: (_size(element-height) * 0.6) + 0.75em;
-    padding-right: 0.75em;
-    position: relative;
-
-    &:before {
-      background: _palette(border-bg);
-      border-radius: _size(border-radius);
-      border: solid 2px transparent;
-      content: '';
-      display: inline-block;
-      height: (_size(element-height) * 0.6);
-      left: 0;
-      line-height: (_size(element-height) * 0.575);
-      position: absolute;
-      text-align: center;
-      top: 0;
-      width: (_size(element-height) * 0.6);
-    }
-  }
-
-  &:checked + label {
-    &:before {
-      background: _palette(fg-bold);
-      border-color: _palette(fg-bold);
-      color: _palette(bg);
-      content: '\f00c';
-    }
-  }
-
-  &:focus + label {
-    &:before {
-      border-color: _palette(accent1, bg);
-    }
-  }
-}
-
-input[type='checkbox'] {
-  & + label {
-    &:before {
-      border-radius: _size(border-radius);
-    }
-  }
-}
-
-input[type='radio'] {
-  & + label {
-    &:before {
-      border-radius: 100%;
-    }
-  }
 }
 
 ::-webkit-input-placeholder {
