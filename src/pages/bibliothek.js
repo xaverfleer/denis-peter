@@ -42,14 +42,6 @@ export default HomeIndex
 
 export const pageQuery = graphql`
   query {
-    libraryPage: markdownRemark(
-      frontmatter: { templateKey: { eq: "libraryPage" } }
-    ) {
-      frontmatter {
-        title
-        intro
-      }
-    }
     landingPage: markdownRemark(
       frontmatter: { templateKey: { eq: "landingPage" } }
     ) {
@@ -71,6 +63,14 @@ export const pageQuery = graphql`
         contact {
           email
         }
+      }
+    }
+    libraryPage: markdownRemark(
+      frontmatter: { templateKey: { eq: "libraryPage" } }
+    ) {
+      frontmatter {
+        title
+        intro
       }
     }
   }
