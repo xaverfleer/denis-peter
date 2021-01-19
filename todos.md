@@ -7,11 +7,9 @@
 
 # todos
 
-- add library page
 - add arbeiten page
-- add social sharing links
-- mention library in landing page
-- only show 4 entries for gallery and blog, add show more
+- mention library on landing page
+- only show 4 entries for gallery and blog, add show more/go to projects
 - add og: tags
 - add schema.org tags
 - SEO
@@ -26,6 +24,7 @@
 - ✅ check gatsby-remark-transformer plugins
 - ✅ add social sharing links
   - ✅ facebook
+- ✅ add library page
 
 # maybe someday
 
