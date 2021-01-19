@@ -70,7 +70,6 @@ select,
 textarea {
   color: _palette(fg);
   font-family: _font(family);
-  font-size: 16pt;
   font-weight: _font(weight);
   line-height: 1.75em;
 }
@@ -1389,7 +1388,12 @@ body.is-touch {
 
 // Xaver styles
 
+textarea {
+  font-size: 1.23607rem;
+}
+
 body {
+  font-size: 1.23607rem;
   margin: 0;
 }
 
@@ -1407,12 +1411,12 @@ h3 {
   font-size: 1.23607rem;
 }
 
-body {
-  font-size: 1.23607rem;
-}
-
 html {
   font-size: 90%;
+}
+
+input {
+  font-size: 1.23607rem;
 }
 
 .header__heading {
