@@ -15,7 +15,12 @@ const Footer = ({ email }) => (
           </a>
         </li>
         <li>
-          <a href={`mailto:${email}`} className="icon fa-envelope-o">
+          <a
+            href={`mailto:${email}`}
+            className="icon fa-envelope-o"
+            rel="noreferrer"
+            target="_blank"
+          >
             <span className="label">E-Mail</span>
           </a>
         </li>
