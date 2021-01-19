@@ -28,7 +28,7 @@ const HomeIndex = ({ data }) => {
 
       <div id="main">
         <section>
-          <header className="major">
+          <header>
             <h1>{siteTitle}</h1>
           </header>
           <p>{intro}</p>

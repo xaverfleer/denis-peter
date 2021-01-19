@@ -153,10 +153,6 @@ hr {
 
   // This is the *only* instance where we need to rely on margin collapse.
   margin: _size(element-margin) 0;
-
-  &.major {
-    margin: (_size(element-margin) * 1.5) 0;
-  }
 }
 
 blockquote {
@@ -228,12 +224,6 @@ header {
     font-size: 1.1em;
     margin-top: (_size(element-margin) * -0.4);
     line-height: 1.5em;
-  }
-
-  &.major {
-    h2 {
-      font-size: 2em;
-    }
   }
 }
 
@@ -1283,14 +1273,6 @@ body.is-touch {
   article {
     &.special {
       text-align: center;
-    }
-  }
-
-  header {
-    &.major {
-      h2 {
-        font-size: 1.35em;
-      }
     }
   }
 

@@ -27,7 +27,7 @@ const MailSent = ({ data }) => {
 
       <div id="main">
         <section id="one">
-          <header className="major">
+          <header>
             <h2>Nachricht erfolgreich gesendet</h2>
           </header>
           <p>
