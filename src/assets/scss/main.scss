@@ -105,17 +105,12 @@ i {
   font-style: italic;
 }
 
-p {
-  margin: 0 0 _size(element-margin) 0;
-}
-
 h1,
 h2,
 h3 {
   color: _palette(fg-bold);
   font-weight: _font(weight-bold);
   line-height: 1em;
-  margin: 0 0 (_size(element-margin) * 0.5) 0;
 
   a {
     color: inherit;
@@ -211,7 +206,6 @@ header {
   p {
     color: _palette(fg-light);
     position: relative;
-    margin: 0 0 (_size(element-margin) * 0.75) 0;
   }
 
   h2 + p {
@@ -1142,8 +1136,6 @@ body.is-touch {
     width: $size-header-width;
 
     h2 {
-      font-size: 1.25em;
-
       br {
         display: none;
       }
@@ -1217,8 +1209,6 @@ body.is-touch {
     display: block;
 
     h2 {
-      font-size: 1.75em;
-
       br {
         display: inline;
       }
@@ -1294,10 +1284,6 @@ body.is-touch {
 
   #header {
     padding: ($size-header-pad * 1.5) $size-header-pad;
-
-    h2 {
-      font-size: 1.35em;
-    }
   }
 
   /* Footer */
@@ -1402,6 +1388,10 @@ body.is-touch {
 }
 
 // Xaver styles
+
+body {
+  margin: 0;
+}
 
 h1 {
   font-size: 2rem;
