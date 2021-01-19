@@ -1151,7 +1151,7 @@ body.is-touch {
       $size-header-pad;
     width: $size-header-width;
 
-    h1 {
+    h2 {
       font-size: 1.25em;
 
       br {
@@ -1226,7 +1226,7 @@ body.is-touch {
     width: 100%;
     display: block;
 
-    h1 {
+    h2 {
       font-size: 1.75em;
 
       br {
@@ -1313,7 +1313,7 @@ body.is-touch {
   #header {
     padding: ($size-header-pad * 1.5) $size-header-pad;
 
-    h1 {
+    h2 {
       font-size: 1.35em;
     }
   }
@@ -1400,7 +1400,7 @@ body.is-touch {
   #header {
     padding: ($size-header-pad * 3) $size-header-pad;
 
-    h1 {
+    h2 {
       br {
         display: none;
       }
