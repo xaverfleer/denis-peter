@@ -663,7 +663,6 @@ $vendor-values: (
     small {
       font-size: 80%;
     }
-    sub,
     sup {
       font-size: 75%;
       line-height: 0;
@@ -672,9 +671,6 @@ $vendor-values: (
     }
     sup {
       top: -0.5em;
-    }
-    sub {
-      bottom: -0.25em;
     }
     img {
       border: 0;
@@ -811,7 +807,6 @@ $vendor-values: (
     small,
     strike,
     strong,
-    sub,
     sup,
     tt,
     var,
