@@ -69,8 +69,8 @@ export const pageQuery = graphql`
       frontmatter: { templateKey: { eq: "libraryPage" } }
     ) {
       frontmatter {
-        title
         intro
+        title
       }
     }
   }
