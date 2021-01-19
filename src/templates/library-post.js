@@ -27,9 +27,9 @@ const libraryPostTemplate = ({ data }) => {
           itemType="http://schema.org/Article"
           dangerouslySetInnerHTML={{ __html: libraryPost.html }}
         ></article>
-        <div class="social">
+        <div class="socials">
           <div
-            class="social__facebook"
+            class="socials__facebook"
             data-href="https://permakultur-handwerk.ch/permakultur-ethik/"
             data-layout="button"
             data-size="small"
