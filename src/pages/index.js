@@ -54,7 +54,7 @@ const HomeIndex = ({ data }) => {
         <section>
           <h2>{worksHeading}</h2>
 
-          <Gallery works={works} />
+          <Gallery entries={works} />
         </section>
 
         <section>

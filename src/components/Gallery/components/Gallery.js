@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
 
-const Gallery = ({ works }) => {
+const Gallery = ({ entries }) => {
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
 
@@ -17,15 +17,15 @@ const Gallery = ({ works }) => {
 
   return (
     <div>
-      {works && (
+      {entries && (
         <div className="row gallery">
-          {works.map((work, i) => {
+          {entries.map((entry, i) => {
             return (
               <GalleryItem
-                source={work.fluidLarge.childImageSharp.fluid.src}
-                thumbnail={work.fluidThumb.childImageSharp.fluid}
-                caption={work.caption}
-                description={work.description}
+                source={entry.fluidLarge.childImageSharp.fluid.src}
+                thumbnail={entry.fluidThumb.childImageSharp.fluid}
+                caption={entry.caption}
+                description={entry.description}
                 position={i}
                 toggleLightbox={toggleLightbox}
                 key={i}
@@ -39,7 +39,7 @@ const Gallery = ({ works }) => {
           <Modal onClose={toggleLightbox}>
             <Carousel
               currentIndex={selectedIndex}
-              views={works.map((w, i) => ({
+              views={entries.map((w, i) => ({
                 src: w.fluidLarge.childImageSharp.fluid.src,
                 id: i,
               }))}
