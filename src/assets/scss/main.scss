@@ -111,10 +111,7 @@ p {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: _palette(fg-bold);
   font-weight: _font(weight-bold);
   line-height: 1em;
@@ -138,21 +135,6 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  line-height: 1.5em;
-}
-
-h4 {
-  font-size: 1.1em;
-  line-height: 1.5em;
-}
-
-h5 {
-  font-size: 0.9em;
-  line-height: 1.5em;
-}
-
-h6 {
-  font-size: 0.7em;
   line-height: 1.5em;
 }
 
@@ -248,14 +230,6 @@ header {
   h3 + p {
     font-size: 1.1em;
     margin-top: (_size(element-margin) * -0.4);
-    line-height: 1.5em;
-  }
-
-  h4 + p,
-  h5 + p,
-  h6 + p {
-    font-size: 0.9em;
-    margin-top: (_size(element-margin) * -0.3);
     line-height: 1.5em;
   }
 
@@ -1290,10 +1264,7 @@ body.is-touch {
 
   h1,
   h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h3 {
     br {
       display: none;
     }
