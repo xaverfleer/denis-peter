@@ -124,17 +124,14 @@ h3 {
 }
 
 h1 {
-  font-size: 2em;
   line-height: 1.5em;
 }
 
 h2 {
-  font-size: 1.5em;
   line-height: 1.5em;
 }
 
 h3 {
-  font-size: 1.25em;
   line-height: 1.5em;
 }
 
@@ -943,7 +940,6 @@ input[type='button'],
 
   h2 {
     color: _palette(accent2, fg);
-    font-size: 1.35em;
     line-height: 1.75em;
     margin: 0;
   }
@@ -1347,20 +1343,6 @@ body.is-touch {
 @include breakpoint(small) {
   $size-header-pad: 1.5em;
 
-  /* Basic */
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
-
   /* Section/Article */
 
   section,
@@ -1501,6 +1483,34 @@ body.is-touch {
   .\34 u24 {
     width: 100%;
   }
+}
+
+// Xaver styles
+
+h1 {
+  font-size: 2rem;
+  font-size: 3.23606rem;
+}
+
+h2 {
+  font-size: 1.23607rem;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.23607rem;
+}
+
+body {
+  font-size: 1.23607rem;
+}
+
+html {
+  font-size: 90%;
+}
+
+.header__heading {
+  font-size: 1.23607rem;
 }
 
 .gallery {
