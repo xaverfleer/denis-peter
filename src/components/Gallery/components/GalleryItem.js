@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 const GalleryItem = ({
@@ -27,7 +28,11 @@ const GalleryItem = ({
 
       <h3>{caption}</h3>
       <p>{description}</p>
-      {slug && <a href={slug}>Zum Eintrag</a>}
+      {slug && (
+        <Link className="page-link" to={slug}>
+          Zum Eintrag →
+        </Link>
+      )}
     </article>
   )
 }
