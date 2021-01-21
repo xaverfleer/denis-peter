@@ -1,12 +1,22 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import ContactForm from '../components/ContactForm'
 import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
+  const { frontmatter: libraryPageFrontmatter } = data.libraryPage
+  const featuredLibraryPosts = data.libraryPosts.nodes
+    .map((n) => ({ frontmatter: n.frontmatter, slug: n.fields.slug }))
+    .map(({ frontmatter, slug }) => ({
+      caption: frontmatter.title,
+      description: frontmatter.description,
+      fluidLarge: frontmatter.fluidLarge,
+      fluidThumb: frontmatter.fluidThumb,
+      slug: slug,
+    }))
   const { frontmatter } = data.markdownRemark
   const siteTitle = frontmatter.title
   const {
@@ -58,6 +68,17 @@ const HomeIndex = ({ data }) => {
         </section>
 
         <section>
+          <h2>
+            {libraryPageFrontmatter.title}{' '}
+            <Link className="page-link" to="/bibliothek/">
+              Zur Bibliothek →
+            </Link>
+          </h2>
+
+          <Gallery entries={featuredLibraryPosts} />
+        </section>
+
+        <section>
           <h2>{contact.heading}</h2>
           <p>{contact.intro}</p>
           <div className="row">
@@ -101,6 +122,46 @@ export default HomeIndex
 
 export const pageQuery = graphql`
   query {
+    libraryPage: markdownRemark(
+      frontmatter: { templateKey: { eq: "libraryPage" } }
+    ) {
+      frontmatter {
+        title
+      }
+    }
+    libraryPosts: allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "library-post" }
+          featuredPost: { eq: true }
+        }
+      }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          description
+          fluidThumb: featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 400, maxHeight: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          fluidLarge: featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 1800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
     markdownRemark(frontmatter: { templateKey: { eq: "landingPage" } }) {
       frontmatter {
         bgImage {
