@@ -1436,14 +1436,17 @@ input {
   flex-wrap: wrap;
 }
 
-.socials {
+.post-links {
+  align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 2em;
 }
 
-.socials__facebook {
+.post-links__facebook {
   background-image: url('/img/facebook.svg');
   background-repeat: no-repeat;
+  margin: 1em;
   padding-left: 40px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -27,9 +27,12 @@ const libraryPostTemplate = ({ data }) => {
           itemType="http://schema.org/Article"
           dangerouslySetInnerHTML={{ __html: libraryPost.html }}
         ></article>
-        <div class="socials">
+        <div class="post-links">
+          <Link className="page-link" to="/bibliothek">
+            ← Zur Bibliothek
+          </Link>
           <div
-            class="socials__facebook"
+            class="post-links__facebook"
             data-href="https://permakultur-handwerk.ch/permakultur-ethik/"
             data-layout="button"
             data-size="small"
