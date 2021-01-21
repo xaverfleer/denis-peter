@@ -1416,6 +1416,15 @@ input {
   font-size: 1.23607rem;
 }
 
+.labeled-icons__icon {
+  display: flex;
+  left: 0;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 2.25em;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;

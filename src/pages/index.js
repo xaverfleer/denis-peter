@@ -67,9 +67,9 @@ const HomeIndex = ({ data }) => {
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-home">
+                  <i className="labeled-icons__icon icon fa-home">
                     <span className="label">Adresse</span>
-                  </h3>
+                  </i>
                   {contact.address01}
                   <br />
                   {contact.address02}
@@ -77,15 +77,15 @@ const HomeIndex = ({ data }) => {
                   {contact.address03}
                 </li>
                 <li>
-                  <h3 className="icon fa-mobile">
+                  <i className="labeled-icons__icon icon fa-mobile">
                     <span className="label">Telefon</span>
-                  </h3>
+                  </i>
                   <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                 </li>
                 <li>
-                  <h3 className="icon fa-envelope-o">
+                  <i className="labeled-icons__icon icon fa-envelope-o">
                     <span className="label">E-Mail</span>
-                  </h3>
+                  </i>
                   <a href={`mailto:${contact.email}`}>{contact.email}</a>
                 </li>
               </ul>
