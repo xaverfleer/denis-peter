@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Footer from './Footer'
@@ -10,9 +11,9 @@ const Header = ({ bgFluid, email, meFixed }) => (
     style={{ backgroundImage: `url(${overlay}), url(${bgFluid?.src})` }}
   >
     <div className="inner">
-      <a href="/#" className="image avatar">
+      <Link to="/" className="image avatar">
         <Img fixed={meFixed} />
-      </a>
+      </Link>
       <h2 className="header__heading">
         <strong>Ich bin Denis Peter</strong>, Permakultur ist meine Leidenschaft
       </h2>
