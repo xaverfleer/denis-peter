@@ -18,7 +18,6 @@ const libraryPostTemplate = ({ data }) => {
       <Helmet>
         <title>Permakultur Handwerk | {title}</title>
         <meta name="description" content={description} />
-        <meta name="robots" content="noindex" />
       </Helmet>
       <div id="main">
         <article
