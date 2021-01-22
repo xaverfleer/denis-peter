@@ -7,27 +7,27 @@
 
 # todos
 
-- add arbeiten page
-- mention library on landing page
-- only show 4 entries for gallery and blog, add show more/go to projects
 - add og: tags
 - add schema.org tags
 - SEO
   - add to Google, Bing and DuckDuckGo
 - read email from index.md, always
-- add form fields
-  - phone number
-  - subject
-- add photos to blog
 - ✅ fix meImage
 - ✅ rename file blog-post -> library-post
 - ✅ check gatsby-remark-transformer plugins
 - ✅ add social sharing links
   - ✅ facebook
 - ✅ add library page
+- ✅ mention library on landing page
+- ✅ add photos to blog
 
 # maybe someday
 
+- add form fields
+  - phone number
+  - subject
+- only show 4 entries for gallery and blog, add show more/go to projects
+- add arbeiten page
 - add social sharing links
   - instagram
   - twitter
